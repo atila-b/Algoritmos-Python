@@ -1,0 +1,31 @@
+0.0390000343323 segundos
+Teste do algoritmo:
+Grafo:
+0 ->  1 ->  2 ->  3 ->  NULL
+1 ->  0 ->  3 ->  5 ->  NULL
+2 ->  0 ->  3 ->  4 ->  NULL
+3 ->  0 ->  1 ->  2 ->  5 ->  4 ->  6 ->  NULL
+4 ->  3 ->  2 ->  6 ->  8 ->  NULL
+5 ->  3 ->  1 ->  6 ->  7 ->  NULL
+6 ->  3 ->  5 ->  4 ->  7 ->  8 ->  9 ->  NULL
+7 ->  6 ->  5 ->  9 ->  NULL
+8 ->  6 ->  4 ->  9 ->  NULL
+9 ->  6 ->  7 ->  8 ->  NULL
+Menor distancia entre 0 e 1 = 60
+Menor distancia entre 0 e 2 = 54
+Menor distancia entre 0 e 3 = 42
+Menor distancia entre 0 e 4 = 68
+Menor distancia entre 0 e 5 = 89
+Menor distancia entre 0 e 6 = 109
+Menor distancia entre 0 e 7 = 114
+Menor distancia entre 0 e 8 = 141
+Menor distancia entre 0 e 9 = 139
+Menor caminho entre 0 e 1: 1 - 0
+Menor caminho entre 0 e 2: 2 - 0
+Menor caminho entre 0 e 3: 3 - 0
+Menor caminho entre 0 e 4: 4 - 3 - 0
+Menor caminho entre 0 e 5: 5 - 1 - 0
+Menor caminho entre 0 e 6: 6 - 5 - 1 - 0
+Menor caminho entre 0 e 7: 7 - 5 - 1 - 0
+Menor caminho entre 0 e 8: 8 - 4 - 3 - 0
+Menor caminho entre 0 e 9: 9 - 7 - 5 - 1 - 0
