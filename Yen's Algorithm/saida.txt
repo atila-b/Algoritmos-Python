@@ -1,0 +1,66 @@
+Teste do algoritmo de Yen:
+Grafo 1:
+0 ->  1 ->  2 ->  3 ->  NULL
+1 ->  0 ->  3 ->  5 ->  NULL
+2 ->  0 ->  3 ->  4 ->  NULL
+3 ->  0 ->  1 ->  2 ->  5 ->  4 ->  6 ->  NULL
+4 ->  3 ->  2 ->  6 ->  8 ->  NULL
+5 ->  3 ->  1 ->  6 ->  7 ->  NULL
+6 ->  3 ->  5 ->  4 ->  7 ->  8 ->  9 ->  NULL
+7 ->  6 ->  5 ->  9 ->  NULL
+8 ->  6 ->  4 ->  9 ->  NULL
+9 ->  6 ->  7 ->  8 ->  NULL
+K = 4:
+Caminhos mais curtos:
+1- [0, 1, 5, 7, 9] custo: 139
+2- [0, 1, 5, 6, 9] custo: 141
+3- [0, 3, 5, 7, 9] custo: 144
+4- [0, 3, 5, 6, 9] custo: 146
+K = 5:
+Caminhos mais curtos:
+1- [0, 1, 5, 7, 9] custo: 139
+2- [0, 1, 5, 6, 9] custo: 141
+3- [0, 3, 5, 7, 9] custo: 144
+4- [0, 3, 5, 6, 9] custo: 146
+5- [0, 3, 6, 9] custo: 161
+
+Grafo 2:
+0 ->  1 ->  2 ->  5 ->  NULL
+1 ->  0 ->  2 ->  3 ->  NULL
+2 ->  0 ->  1 ->  3 ->  4 ->  NULL
+3 ->  1 ->  2 ->  4 ->  5 ->  NULL
+4 ->  2 ->  3 ->  5 ->  NULL
+5 ->  3 ->  4 ->  0 ->  NULL
+K = 3:
+Caminhos mais curtos:
+1- [0, 2, 3, 5] custo: 5
+2- [0, 5] custo: 6
+3- [0, 2, 4, 5] custo: 7
+K = 4:
+Caminhos mais curtos:
+1- [0, 2, 3, 5] custo: 5
+2- [0, 5] custo: 6
+3- [0, 2, 4, 5] custo: 7
+4- [0, 1, 2, 3, 5] custo: 7
+
+Grafo 3:
+0 ->  1 ->  2 ->  3 ->  NULL
+1 ->  0 ->  3 ->  6 ->  NULL
+2 ->  0 ->  3 ->  4 ->  NULL
+3 ->  0 ->  1 ->  2 ->  5 ->  4 ->  NULL
+4 ->  2 ->  3 ->  5 ->  6 ->  NULL
+5 ->  3 ->  4 ->  6 ->  NULL
+6 ->  1 ->  4 ->  5 ->  NULL
+K = 4:
+Caminhos mais curtos:
+1- [0, 3, 5, 6] custo: 8
+2- [0, 3, 5, 4, 6] custo: 9
+3- [0, 3, 4, 6] custo: 10
+4- [0, 2, 4, 6] custo: 11
+K = 5:
+Caminhos mais curtos:
+1- [0, 3, 5, 6] custo: 8
+2- [0, 3, 5, 4, 6] custo: 9
+3- [0, 3, 4, 6] custo: 10
+4- [0, 2, 4, 6] custo: 11
+5- [0, 3, 4, 5, 6] custo: 11
