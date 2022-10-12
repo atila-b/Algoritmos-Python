@@ -1,2 +1,2 @@
-# Algoritmos em Python
-Implementação de algoritmos para a disciplina de Projeto e Análise de Algoritmos
+# Pythom algorithms
+Implementation of algorithms for the discipline of Design and Analysis of Algorithms
